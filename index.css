@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-/* *[data-aos] {
+*[data-aos] {
   overflow-x: hidden;
 }
 * {
@@ -14,24 +14,24 @@
 html, body {
   width: 100%;
   overflow-x: hidden;
-} */
+}
 
 /* animation */
-/* .box {
+ .box {
     opacity: 0;
     transform: translateY(30px);
    transition: all 0.9s ease-out;
-} */
+} 
 
 /* Animation base */
-/* .animate {
+ .animate {
     opacity: 1;
     transform: none;
-} */
+} 
 
 
 /* Specific Effects */
-/* .fade-up {
+.fade-up {
     transform: translateY(60px);
 }
 
@@ -73,7 +73,7 @@ html, body {
 .fade-left.animate {
     transform: translateX(0);
         overflow-x: hidden;
-} */
+} 
 
 
 /* header */

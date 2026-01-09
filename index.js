@@ -156,3 +156,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Animation
 
+  // Intersection Observer for triggering animations
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate');
+      } else {
+        // entry.target.classList.remove('animate'); // optional (remove if you want one-time animation)
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll('.box').forEach(box => {
+    observer.observe(box);
+  });
