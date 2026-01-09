@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <!-- <img class="logo" src="/image/logo.png"> -->
+                     <h1>Glamora</h1>
+
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-white" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <!-- <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Menu</h5> -->
+                        <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link " href=""><span class="active"> Home </span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#About">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#Staff Portal">Staff Portal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Admin Portal">Admin Portal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero-bg " id="hero-bg">
+        <div class="hero-cont container">
+            <div class="hero-left ">
+                <h5 class="hero-sub-title">Smart Customer Management</h5>
+                <h1 class="hero-title">Transform Your Beauty Parlour Operations</h1>
+                <p class="hero-sub-content">Beauty Track is a smart customer management system for beauty parlours and
+                    salons that helps track
+                    customers, manage services, and improve daily efficiency.</p>
+               <a href="#Contact"> <button class="hero-button">More Details </button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about-sec container" id="About">
+        <div class="about-left">
+            <img src="image/about-left.png" class="about-left-img">
+        </div>
+        <div class="about-right">
+            <h1 class="title">About This Project</h1>
+            <p class="sub-content">A simple and efficient customer management system built for beauty parlours to
+                track customers, manage services, and improve daily operations.</p>
+            <div class="points">
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Easy Customer Entry</h3>
+                    <p class="point-cont">Staff log in and quickly add customer details such as name, contact, service,
+                        time, and billing.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Daily Auto Reset</h3>
+                    <p class="point-cont">The staff dashboard refreshes every day at midnight, showing a clean view
+                        while securely saving all past data.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Full Admin Control</h3>
+                    <p class="point-cont"> Admins can view complete records, manage staff and services, track repeat
+                        customers, and access analytics.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Smart Business Insights</h3>
+                    <p class="point-cont">View reports, monitor revenue, identify popular services, and make better
+                        business decisions using accurate data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Staff-Portal -->
+    <div class="staff-portal-bg" id="Staff Portal">
+        <div class="container staff-portal">
+            <div class="staff-left">
+                <h1 class="title">Staff Portal</h1>
+                <p class="sub-content">Give your team the tools they need to efficiently manage daily customer visits
+                    with an intuitive interface designed for speed and simplicity.</p>
+                <div class="points">
+                    <div class="point">
+                        <h3 class="heading"><span class="list-point">✤</span> Quick Customer Entry</h3>
+                        <p class="point-cont">Easily add customer details, services, time, and payment.</p>
+                    </div>
+                    <div class="point">
+                        <h3 class="heading"><span class="list-point">✤</span> Daily Dashboard</h3>
+                        <p class="point-cont">See only today’s customers with an automatic midnight reset.</p>
+                    </div>
+                    <div class="point">
+                        <h3 class="heading"><span class="list-point">✤</span> Secure Login</h3>
+                        <p class="point-cont"> Individual login access for each staff member.</p>
+                    </div>
+                    <div class="point">
+                        <h3 class="heading"><span class="list-point">✤</span> Complete Visit Records</h3>
+                        <p class="point-cont">Track services, timings, repeat visits, and payments.</p>
+                    </div>
+                    <div class="point">
+                        <h3 class="heading"><span class="list-point">✤</span> Auto Refresh</h3>
+                        <p class="point-cont">Daily data resets while all records remain safely stored.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="staff-right">
+                <img src="image/staff-right-img.png" class="staff-right-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin-Portal -->
+
+    <div class="admin-Portal container" id="Admin Portal">
+        <div class="admin-Portal-left">
+            <img src="image/admit-left-img.png" class="admin-Portal-img">
+        </div>
+        <div class="admin-Portal-right">
+            <h1 class="title">Admin Portal</h1>
+            <p class="sub-content">Gain full oversight of your salon operations with powerful analytics, staff
+                management, and comprehensive reporting tools.</p>
+            <div class="points">
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Analytics Dashboard </h3>
+                    <p class="point-cont">View service-wise visitors, daily and weekly stats, and total billing.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Staff Management</h3>
+                    <p class="point-cont">Add, manage, and control staff accounts with secure access.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Service Setup</h3>
+                    <p class="point-cont"> Create and manage service types for staff selection.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Visitor History</h3>
+                    <p class="point-cont">Access complete customer records with service and billing details.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Recurring Customer Alerts</h3>
+                    <p class="point-cont">Track repeat customers and get reminder notifications.</p>
+                </div>
+                <div class="point">
+                    <h3 class="heading"><span class="list-point">✤</span> Revenue Tracking</h3>
+                    <p class="point-cont">Monitor total earnings and overall financial performance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-bg" id="Contact">
+        <div class="container contact">
+            <div class="contact-info">
+                <h1 class="title">Get In Touch</h1>
+                <p class="sub-content">Ready to transform your beauty parlour operations? Contact us today for a free
+                    demo!</p>
+                <h1 class="title">Contact Information</h1>
+                <div class="info">
+                    <h4 class="info_heading">Email</h4>
+                    <p>info@oasissmarts.com</p>
+                </div>
+                <div class="info">
+                    <h4 class="info_heading">Phone</h4>
+                    <p>+968 9876 5432</p>
+                </div>
+                <div class="info">
+                    <h4 class="info_heading">Location</h4>
+                    <p>Oasis Smarts Muscat,Oman</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="form-bg">
+                    <h1 class="title">Send us a message</h1>
+                    <!-- <form id="contactForm">
+                        <div class="row">
+                            <input type="text" id="firstName" placeholder="First Name" />
+                            <input type="text" id="lastName" placeholder="Last Name" />
+                        </div>
+                        <div id="nameError" class="error"></div>
+
+                        <div class="row">
+                            <input type="email" id="emailField " placeholder="Email Address" />
+                            <input type="text" id="numberField" placeholder="Phone Number" />
+                        </div>
+                        <div id="contactError" class="error"></div>
+
+                        <textarea id="messageField" placeholder="Your Message"></textarea>
+
+                        <button type="submit" class="submit">Submit</button>
+
+                    </form> -->
+              
+            <form id="contactForm" action="https://formspree.io/f/xykzrrqb" method="POST" >
+                <div class="form-group ">
+                    <input type="text" id="firstName" name="firstName" placeholder="First name" required>
+                    <div class="error" id="firstNameError"></div>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last name" required>
+                    <div class="error" id="lastNameError"></div>
+                </div>
+
+                <div class="form-group ">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <div class="error" id="emailError"></div>
+                </div>
+
+                <div class="form-group ">
+                    <input type="tel" id="number" name="number" placeholder="Phone Number" required>
+                    <div class="error" id="numberError"></div>
+                </div>
+
+                <div class="form-group message1 ">
+                    <textarea id="message" class="message1" name="message" rows="3" placeholder="Message"
+                        required></textarea>
+                    <div class="error" id="messageError"></div>
+                </div>
+
+                <div id="formMsg" style="color:green;margin-bottom:8px;"></div>
+
+                <button type="submit" class="contact-button box fade-up">Submit</button>
+            </form>
+              
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <div class="footer container">
+        <!-- <div class="footer-logo-cont"></div> -->
+        <div class="Quick_links">
+            <img src="" alt="Logo">
+            <p class="sub-content">Smart Customer Management System for modern beauty parlours and salons.</p>
+        </div>
+        <div class="Quick_links">
+            <h3 class="Footer_title">Quick Links</h3>
+            <ul>
+               <a href="#hero-bg"><li>Home</li></a>
+               <a href="#About"><li>About</li></a> 
+               <a href="#Staff Portal"><li>Staff Portal</li></a> 
+               <a href="#Admin Portal"><li>Admin Portal</li></a> 
+            </ul>
+        </div>
+                <div class="Quick_links">
+            <h3 class="Footer_title">Features</h3>
+            <ul>
+                <li>Customer Tracking</li>
+                <li>Analytics Dashboard</li>
+                <li>Staff Management</li>
+                <li>Billing System</li>
+            </ul>
+        </div>
+                <div class="Quick_links">
+            <h3 class="Footer_title">Company</h3>
+            <ul>
+                <li>TechNeat (India)</li>
+                <li>Oasis Smarts (Oman)</li>
+               <a href="#Contact"><li>Contact Us</li></a> 
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+ 
+     </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>
